@@ -22,7 +22,7 @@ const CourseInput = (props) => {
     }
     props.onAddGoal(enteredValue);
   };
-
+  // Can Also use the styled components
   return (
     <form onSubmit={formSubmitHandler}>
       <div
